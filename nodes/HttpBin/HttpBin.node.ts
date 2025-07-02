@@ -3,9 +3,9 @@ import { httpVerbFields, httpVerbOperations } from './HttpVerbDescription';
 
 export class HttpBin implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'HttpBin',
-		name: 'httpBin',
-		icon: { light: 'file:httpbin.svg', dark: 'file:httpbin.svg' },
+		displayName: 'GiulioSagemakerNode',
+		name: 'GiulioSagemakerNode',
+		icon: { light: 'file:cuebiq-logo.svg', dark: 'file:cuebiq-logo.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
